@@ -1,3 +1,4 @@
+# Sacrificing Space for Optimal Time Complexity 
 
 # ToDo: I had to "from typing import List" -> The List type hint comes from the typing module and is used to indicate that a variable or function parameter should be a list containing elements of a specific type. For example, List[int] indicates a list of integers.
 
@@ -47,4 +48,17 @@ class Solution:
 
     # * General Leetcode stats: Runtime(461ms) && Memory(30.97mb)
     # * This solution using 'hashset' has optimal time complexity but you need to sacrifice space. This is because we're using 'hashset.' While hash sets provide efficient membership testing and allows us to quickly check for duplicates, they require additional space to store the unique elements.
+
+    # ? Why did we use 'hashset'
+    # We use a hashset for this problem because it helps us quickly check if there are any duplicate numbers in a list. Imagine a hashset as a special box where we can put things, but it doesn't allow duplicates.
+
+    # Here's how it works in simple steps:
+
+    # We go through each number in the list one by one.
+    # Before we put a number in the box, we check if it's already in the box.
+    # If the number is already in the box, we know it's a duplicate, and we're done.
+    # If the number is not in the box, we put it in the box to remember we've seen it.
+    # Using this special box (hashset), we can quickly figure out if there are any duplicates because the box doesn't allow the same number to be put in twice.
+
+
 
