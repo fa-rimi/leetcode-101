@@ -1,9 +1,12 @@
-from typing import List
 
-# Leetcode will provide:
-# class Solution:
-#   def containsDuplicate(self, nums: List[int]) -> bool:
-     
+# ToDo: I had to "from typing import List" -> The List type hint comes from the typing module and is used to indicate that a variable or function parameter should be a list containing elements of a specific type. For example, List[int] indicates a list of integers.
+
+# * Leetcode will provide:
+# * class Solution:
+# *  def containsDuplicate(self, nums: List[int]) -> bool:
+
+#-------------------------------------------------------------------------------------
+  
 # blueprint Solution -> without it "Error: name 'Solution' is not defined"
 class Solution:
 
@@ -42,6 +45,6 @@ class Solution:
     print(containsDuplicate(test_nums4))
     print(containsDuplicate(test_nums5))
 
-    # Leetcode stats: Runtime(461ms) && Memory(30.97mb)
-    # This solution using 'hashset' has optimal time complexity but you need to sacrifice space. This is because we're using 'hashset.' While hash sets provide efficient membership testing and allows us to quickly check for duplicates, they require additional space to store the unique elements.
+    # * General Leetcode stats: Runtime(461ms) && Memory(30.97mb)
+    # * This solution using 'hashset' has optimal time complexity but you need to sacrifice space. This is because we're using 'hashset.' While hash sets provide efficient membership testing and allows us to quickly check for duplicates, they require additional space to store the unique elements.
 
