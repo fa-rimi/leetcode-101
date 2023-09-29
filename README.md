@@ -2,10 +2,9 @@
 <li> Breakdown && Notes
 <li> Solved Problems
 
-#### Directory[^2]:
+#### Directory:
 | Number | Difficulty | Question | Status | Path |
 | --- | --- | --- | --- | --- |
 | 217 | easy | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | in progress |
 
-[^1]: Solutions && all credits to Neetcode.io
-[^2]: Using Neetcode.io roadmap.
+[^1]: Using Neetcode.io roadmap.
